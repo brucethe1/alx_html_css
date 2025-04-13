@@ -1,109 +1,114 @@
-# Headphones Web Page
+Headphones Company - Web Page Implementation
+Project Overview
+This project involves building a responsive webpage for a headphones company from scratch using only HTML and CSS, without any external frameworks or JavaScript. The goal is to recreate a design provided in Figma as accurately as possible.
 
-Welcome to the **Headphones Web Page** project! This project is part of the ALX Front-End Web Development curriculum. It demonstrates a fully responsive and visually appealing webpage, built with HTML and CSS, adhering to a given Figma design.
+Table of Contents
+Live Demo
 
----
+Features
 
-## Features
+Technologies Used
 
-- **Responsive Design:**
-  - The web page transitions seamlessly to a mobile-friendly layout for screen widths of 480px or less.
+Installation
 
-- **Interactive Elements:**
-  - Links change color to `#FF6565` on hover and when active.
-  - Buttons exhibit an opacity of `0.9` on hover and when active.
+Project Structure
 
-- **Content Layout:**
-  - The maximum width of the content is `1000px`, ensuring a clean and centered display on the page.
+Responsive Design
 
----
+Accessibility
 
-## Project Structure
+Credits
 
-```
-headphones/
-├── index.html    # Main HTML file
-├── styles.css    # CSS file for styling
-└── README.md     # Project documentation
-```
+Live Demo
+View Live Demo (Link to be added after deployment)
 
----
+Features
+Fully Responsive Design: Adapts to all screen sizes
 
-## Fonts Used
+Interactive Elements: Hover states for buttons and links
 
-1. **Source Sans Pro**  
-2. **Spin-Cycle-OT**
+Mobile Navigation: Hamburger menu for smaller screens
 
-Ensure these fonts are correctly loaded for the design to match the specifications.
+Clean Modern Design: Following the Figma specifications
 
----
+Performance Optimized: Lightweight and fast-loading
 
-## Installation and Usage
+Technologies Used
+HTML5: Semantic markup
 
-1. Clone the repository:
+CSS3: Custom styling with variables
 
-   ```bash
-   git clone https://github.com/your-username/alx_html_css.git
-   cd alx_html_css/headphones
-   ```
+Figma: For design reference
 
-2. Open the `index.html` file in your preferred web browser:
+Git: Version control
 
-   ```bash
-   open index.html
-   ```
+Installation
+To run this project locally:
 
----
+Clone the repository:
 
-## Development Guidelines
+bash
+Copy
+git clone https://github.com/yourusername/headphones-website.git
+Navigate to the project directory:
 
-### CSS Restrictions
-- **No external CSS frameworks** like Bootstrap or Tailwind are allowed.
-- Only vanilla HTML and CSS were used.
+bash
+Copy
+cd headphones-website
+Open the index.html file in your browser.
 
-### Figma Design Fidelity
-- The webpage replicates the provided Figma design exactly.
+Project Structure
+Copy
+headphones-website/
+├── index.html          # Main HTML file
+├── styles.css         # Main CSS file
+├── images/            # All image assets
+│   ├── logo_headphones.png
+│   ├── headphones_hero_1.jpg
+│   └── headphones_hero_2.jpg
+└── README.md          # This file
+Responsive Design
+The webpage implements responsive design with the following breakpoints:
 
----
+Desktop: > 1024px
 
-## Responsiveness
+Tablet: 481px - 1023px
 
-- **Desktop View:**
-  - For screen widths above 480px, the layout maintains a clean, centered design with a maximum content width of `1000px`.
+Mobile: ≤ 480px
 
-- **Mobile View:**
-  - For screen widths of 480px or less, the layout automatically adjusts to provide an optimized user experience on smaller screens.
+Key responsive features:
 
----
+Navigation transforms to hamburger menu on mobile
 
-## Interactions
+Grid layouts adjust columns based on screen size
 
-- **Links:**
-  - Hover and active state color: `#FF6565`.
+Font sizes and spacing adapt for better readability
 
-- **Buttons:**
-  - Hover and active state opacity: `0.9`.
+Accessibility
+This project follows web accessibility best practices:
 
----
+Semantic HTML structure
 
-## Contribution
+Proper contrast ratios
 
-Contributions are welcome! Please follow these steps:
+Keyboard navigable
 
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Description of changes"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a Pull Request.
+ARIA attributes where needed
 
----
+Alt text for images
 
+Credits
+Design: Nicolas Philippot (UI/UX designer)
+
+Implementation: [Your Name]
+
+Fonts:
+
+Source Sans Pro (Google Fonts)
+
+Spin Cycle OT (licensed font)
+
+License
+This project is open-source and available under the MIT License.
+
+N
